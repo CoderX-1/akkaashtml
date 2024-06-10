@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #000000;
+  overflow-x: hidden;
+}
+
+.modal {
+  display: none;
+}
+.modal.open {
+  display: flex;
+}
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}

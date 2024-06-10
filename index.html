@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akkaas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="flex px-2 items-center h-24 justify-between container mx-auto">
+            <div>
+                <img class="w-40 md:w-auto" src="img/Logo.png" alt="Akkaas Logo">
+            </div>
+            <div class="relative">
+                <img class="w-6 sm:w-8 cursor-pointer" src="img/Dropdown.png" alt="Dropdown"
+                    onclick="toggleDropdown()" />
+                <div id="dropdownMenu" class="absolute right-0 mt-2 w-48 bg-white border rounded shadow-lg hidden">
+                    <a href="#profile" class="block px-4 py-2 text-black hover:bg-gray-200">Profile</a>
+                    <a href="#settings" class="block px-4 py-2 text-black hover:bg-gray-200">Settings</a>
+                    <a href="#logout" class="block px-4 py-2 text-black hover:bg-gray-200">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container mx-auto p-4 relative">
+                <div class="flex flex-col gap-4 lefttoright">
+                    <div class="text-white">
+                        <ul class="flex gap-4">
+                            <li>
+                                <mark class="bg-blue-600">CRE</mark>
+                                <span>ATIVE.</span>
+                            </li>
+                            <li>
+                                <mark class="bg-blue-600">TEC</mark>
+                                <span>HNOLOGY.</span>
+                            </li>
+                            <li>
+                                <mark class="bg-blue-600">WE</mark>
+                                <span>B3.00.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <h2 class="font-thin text-4xl sm:text-7xl font-sans text-white">
+                        Spark. Connect. Thrive. We don’t chase trends, we set them.
+                    </h2>
+                    <div class="flex gap-2 text-white font-extrabold">
+                        <button class="bg-blue-700 p-4 rounded-md uppercase">get in touch</button>
+                    </div>
+                </div>
+
+                <figure>
+                    <img class="w-full" src="img/secimage.png" alt="" />
+                </figure>
+
+                <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    <button onclick="openModal()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="358" height="197" viewBox="0 0 358 197">
+                            <g id="Group_13563" data-name="Group 13563" transform="translate(-782 -1370)">
+                                <path id="Polygon_7" data-name="Polygon 7" d="M98.5,0,197,174H0Z"
+                                    transform="translate(1057.5 1370) rotate(90)" fill="#013bff" opacity="0.6" />
+                                <text transform="translate(782 1497)" fill="#fff" font-size="68"
+                                    font-family="Montserrat-UltraLight, Montserrat" font-weight="100">
+                                    <tspan x="0" y="0">PLAY REEL</tspan>
+                                </text>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+
+                <div id="modal" class="modal fixed inset-0 z-50 items-center justify-center bg-black bg-opacity-75">
+                    <div class="relative p-8 rounded-md">
+                        <button class="absolute top-2 right-2 text-white text-3xl"
+                            onclick="closeModal()">&times;</button>
+                        <iframe class="w-[80vw] h-[45vw]"
+                            src="https://player.vimeo.com/video/800750181?color&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0&autoplay=1#t="
+                            frameborder="0"></iframe>
+                    </div>
+                </div>
+
+                <div class="font-bold text-2xl sm:text-3xl font-sans text-white text-center py-20">
+                    <h4 class="textleftanimate">AKKAAS boosts business</h4>
+                    <h4 class="textrightanimate">by co-creating desirable</h4>
+                    <h4 class="textleftanimate">brand experiences.</h4>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="bg-[#EFEEEB] py-14">
+                <div class="container mx-auto">
+                    <h4 class="text-4xl font-normal font-sans text-center texttopanimate">
+                        Companies that <br>
+                        trusted us
+                    </h4>
+                    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 place-items-center gap-14 pt-7">
+                        <figure>
+                            <img class="block iconanimation" src="img/Cochlear.png" alt="Cochlear">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/Address.png" alt="Address">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/Agb.png" alt="Agb">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/alphabet.png" alt="Alphabet">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/amrita.png" alt="Amrita">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/astromust.png" alt="Astromust">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/beyond.png" alt="Beyond">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/blue.png" alt="Blue">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/clubpadel.png" alt="Club Padel">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/Coredirection.png" alt="Coredirection">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/Dubaiautodrome.png" alt="Dubai Autodrome">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/Emiratesnature.png" alt="Emirates Nature">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/Fluid.png" alt="Fluid">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/Hanah.png" alt="Hanah">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/huawei.png" alt="Huawei">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/kocrossbay.png" alt="Kocrossbay">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/melanie.png" alt="Melanie">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/Nimbus.png" alt="Nimbus">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/parent.png" alt="Parent">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/pxpulse.png" alt="Pxpulse">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/Roche.png" alt="Roche">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/sevenly.png" alt="Sevenly">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/Thepath.png" alt="The Path">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/Trandefy.png" alt="Trandefy">
+                        </figure>
+                        <figure>
+                            <img class="block iconanimation" src="img/uaca.png" alt="Uaca">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="py-10 container mx-auto p-4">
+                <div class="py-20 moveleft">
+                    <h4 class="text-4xl font-normal font-sans text-left text-white">
+                        WE BRING STANDOUT
+                    </h4>
+                    <h4 class="text-4xl font-normal font-sans text-left text-white/70">
+                        IMMERSIVE EXPERIENCES
+                    </h4>
+                    <h4 class="text-4xl font-normal font-sans text-left text-white">
+                        TO EVERYONE, EVERYWHERE.
+                    </h4>
+                </div>
+                <div class="flex pt-5 pb-24 md:flex-row flex-col items-center gap-2">
+                    <div class="md:w-3/6">
+                        <video autoplay loop muted playsinline controlslist="nodownload" class="w-full">
+                            <source src="https://theakkaas.com/wp-content/uploads/2023/09/home_design_services-new.mp4"
+                                type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="md:w-3/6 moveup1">
+                        <p class="text-[#9fabb9] text-xs sm:text-sm font-normal font-sans">
+                            DESIGNED TO TRANSFORM
+                        </p>
+                        <h4 class="text-2xl sm:text-3xl font-normal font-sans text-left text-white">
+                            DESIGN SERVICES.
+                        </h4>
+                        <h4 class="text-sm sm:text-base pt-5 font-normal font-sans text-left text-white/90">
+                            Storytelling is an art and we are the master storytellers. We share your stories in a way
+                            that can connect a huge audience to your brand.
+                        </h4>
+                        <h4 class="text-sm sm:text-base pt-5 font-normal font-sans text-left text-white/90">
+                            Our game-changing Designs, effective storytelling skills, and marketing strategies help you
+                            reach millions of people.
+                        </h4>
+                        <div class="flex mt-7 gap-2 text-white font-bold">
+                            <div class="py-2 w-full">
+                                <div class="mb-5">
+                                    <h6>Branding</h6>
+                                </div>
+                                <div class="mb-5">
+                                    <h6>Digital Assets</h6>
+                                </div>
+                            </div>
+                            <div class="py-2 w-full">
+                                <div class="mb-5">
+                                    <h6>Social Media</h6>
+                                </div>
+                                <div class="mb-5">
+                                    <h6>Print Design</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-2 text-white font-extrabold">
+                            <button class="bg-[#013BFF] p-4 rounded-md">
+                                Our Services
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex pt-5 pb-24 md:flex-row-reverse flex-col items-center gap-2">
+                    <div class="md:w-3/6 moveup">
+                        <video autoplay loop muted playsinline controlslist="nodownload" class="w-full">
+                            <source src="https://theakkaas.com/wp-content/uploads/2023/09/home_development-new.mp4"
+                                type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="md:w-3/6 moveup2">
+                        <p class="text-[#9fabb9] text-xs sm:text-sm font-normal font-sans">
+                            MAKE PERFECT BRAND ON WEB 3.0
+                        </p>
+                        <h4 class="text-2xl sm:text-3xl font-normal font-sans text-left text-white">
+                            WEB 2.0 AND 3.0 DEVELOPMENT.
+                        </h4>
+                        <h4 class="text-sm sm:text-base pt-5 font-normal font-sans text-left text-white/90">
+                            Do you want your website ranked highly in google? Do you wish to provide the outclass user
+                            journey to the website visitors? Do you want them to click on the "contact us" or "buy"
+                            button in minutes when they visit your online shop?
+                        </h4>
+                        <h4 class="text-sm sm:text-base pt-5 font-normal font-sans text-left text-white/90">
+                            If yes, you are in the right place.
+                        </h4>
+                        <div class="flex mt-7 gap-2 text-white font-bold">
+                            <div class="py-2 w-full">
+                                <div class="mb-5">
+                                    <h6>UI / UX</h6>
+                                </div>
+                                <div class="mb-5">
+                                    <h6>Metaverse</h6>
+                                </div>
+                                <div class="mb-5">
+                                    <h6>Smart Contract</h6>
+                                </div>
+                            </div>
+                            <div class="py-2 w-full">
+                                <div class="mb-5">
+                                    <h6>Web & Mobile</h6>
+                                </div>
+                                <div class="mb-5">
+                                    <h6>Blockchain</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex pt-5 pb-24 md:flex-row flex-col items-center gap-2">
+                    <div class="md:w-3/6">
+                        <video autoplay loop muted playsinline controlslist="nodownload" class="w-full">
+                            <source src="https://theakkaas.com/wp-content/uploads/2023/09/home_strategy.mp4"
+                                type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="md:w-3/6 moveup3">
+                        <p class="text-[#9fabb9] text-xs sm:text-sm font-normal font-sans">
+                            Crafting Visionary Plans
+                        </p>
+                        <h4 class="text-2xl sm:text-3xl font-normal font-sans text-left text-white">
+                            STRATEGY.
+                        </h4>
+                        <h4 class="text-sm sm:text-base pt-5 font-bold font-sans text-left text-white">
+                            Charting Your Epic Marketing Odyssey
+                        </h4>
+                        <h4 class="text-sm sm:text-base pt-5 font-normal font-sans text-left text-white/90">
+                            Tired of wandering in the marketing wilderness? Let us be your expert guides. We'll craft a
+                            bespoke roadmap, infused with data-driven insights and a healthy dose of "wow." Whether
+                            you're seeking brand dominance or customer loyalty, we'll help you blossom and flourish.
+                        </h4>
+                        <div class="flex mt-7 gap-2 text-white font-bold">
+                            <div class="py-2 w-full">
+                                <div class="mb-5">
+                                    <h6>Goal Excavation</h6>
+                                </div>
+                                <div class="mb-5">
+                                    <h6>Collaborative Cultivation</h6>
+                                </div>
+                            </div>
+                            <div class="py-2 w-full">
+                                <div class="mb-5">
+                                    <h6>Side-by-Side Journey</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-2 text-white font-extrabold">
+                            <button class="bg-[#013BFF] p-4 rounded-md">
+                                Book A Call
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto">
+            <div class="py-14 px-5">
+                <div>
+                    <h4
+                        class="pb-7 text-2xl sm:text-4xl font-normal font-sans text-center text-[#ffffff] texttopanimate2">
+                        OUR PORTFOLIO
+                    </h4>
+                    <div class="flex flex-col gap-2">
+                        <img class="w-full" src="https://theakkaas.com/wp-content/uploads/2023/02/astromust-banner.jpg"
+                            alt="Astromust Banner" />
+                        <div class="flex flex-col md:flex-row gap-2 md:gap-0">
+                            <img class="md:w-2/4"
+                                src="https://theakkaas.com/wp-content/uploads/2023/01/seventy-banner-1x.jpg"
+                                alt="Seventy Banner" />
+                            <img class="md:w-2/4"
+                                src="https://theakkaas.com/wp-content/uploads/2023/03/switch-banner-1x.jpg"
+                                alt="Switch Banner" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container mx-auto">
+            <section class="p-5">
+                <div class="moveleft2">
+                    <h4 class="pb-7 text-2xl sm:text-4xl font-normal font-sans text-[#ffffff]">
+                        What our
+                        <span> customers </span><br />
+                        have to say about us.
+                    </h4>
+                </div>
+                <div class="text-white">
+                    <div class="slick-slider">
+                        <div class="p-4 max-w-[1400px]">
+                            <div class="flex flex-col min-h-[300px] sm:flex-row bg-[#1C1C1C] w-auto">
+                                <div class="flex flex-col items-center py-4 w-full sm:w-[30rem] justify-center">
+                                    <figure class="mb-5">
+                                        <img decoding="async" width="166" height="166"
+                                            src="https://theakkaas.com/wp-content/uploads/2023/02/transdefy-testimonial.svg"
+                                            class="max-w-full h-auto" alt="Transdefy logo">
+                                    </figure>
+                                    <figure>
+                                        <img decoding="async" width="167" height="24"
+                                            src="https://theakkaas.com/wp-content/uploads/2023/02/rating_stars.png"
+                                            class="max-w-full h-auto" alt="Rating stars">
+                                    </figure>
+                                </div>
+                                <div class="flex flex-col justify-center p-4 w-full sm:w-[70rem]">
+                                    <h4 class="uppercase text-xl font-bold mb-2 text-white">
+                                        transdefy
+                                    </h4>
+                                    <p class="text-white/70">
+                                        The team has been very focused &amp; work towards helping the client reach their
+                                        objectives. Adding value with every interaction and directing the best for the
+                                        client has
+                                        been at the core of their engagement. Comes up with possibilities of what can be
+                                        done
+                                        better with multiple options that adds to the customer experience. All in all, I
+                                        recommend
+                                        the team for their creativity and will to go the extra mile with their clients.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container mx-auto p-4 min-h-[300px] max-w-[1400px]">
+                            <div class="flex flex-col sm:flex-row min-h-[300px] bg-[#1C1C1C] w-auto">
+                                <div class="flex flex-col items-center p-4 w-full sm:w-[30rem] justify-center">
+                                    <figure class="mb-5">
+                                        <img decoding="async" width="166" height="166"
+                                            src="https://theakkaas.com/wp-content/uploads/2023/02/melow-testimonial.svg"
+                                            class="max-w-full h-auto" alt="mellow logo">
+                                    </figure>
+                                    <figure>
+                                        <img decoding="async" width="167" height="24"
+                                            src="https://theakkaas.com/wp-content/uploads/2023/02/rating_stars.png"
+                                            class="max-w-full h-auto" alt="Rating stars">
+                                    </figure>
+                                </div>
+                                <div class="flex flex-col justify-center p-4 w-full sm:w-[70rem]">
+                                    <h4 class="uppercase text-xl font-bold mb-2 text-white">
+                                        mellow
+                                    </h4>
+                                    <p class="text-white/70">
+                                        The account manage and deliverables were both of excellent quality. I would
+                                        recommend them
+                                        to any partners and we will be using them again for future projects.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container mx-auto p-4 max-w-[1400px]">
+                            <div class="flex flex-col sm:flex-row min-h-[300px] bg-[#1C1C1C] w-auto">
+                                <div class="flex flex-col items-center p-4 w-full sm:w-[30rem] justify-center">
+                                    <figure class="mb-5">
+                                        <img decoding="async" width="166" height="166"
+                                            src="https://theakkaas.com/wp-content/uploads/2023/02/switch-reality-testimonial.svg"
+                                            class="max-w-full h-auto" alt="switch-reality logo">
+                                    </figure>
+                                    <figure>
+                                        <img decoding="async" width="167" height="24"
+                                            src="https://theakkaas.com/wp-content/uploads/2023/02/rating_stars.png"
+                                            class="max-w-full h-auto" alt="Rating stars">
+                                    </figure>
+                                </div>
+                                <div class="flex flex-col justify-center p-4 w-full sm:w-[70rem]">
+                                    <h4 class="uppercase text-xl font-bold mb-2 text-white">
+                                        switch-reality
+                                    </h4>
+                                    <p class="text-white/70">
+                                        The Akkaas were very professional and creative. They created a very innovative
+                                        website and
+                                        made a whole study for the customer journey and mind maps that no other company
+                                        provided.
+                                        We recommend them to anyone seeking creative websites and branding.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <figure>
+                        <img class="w-full" src="https://theakkaas.com/wp-content/uploads/2024/05/our-approach-bg.webp"
+                            alt="">
+                        <div class="absolute left-1/2 top-[395rem] transform -translate-x-1/2 -translate-y-1/2">
+                            <figure class="flex flex-col items-center text-center">
+                                <img class="w-full max-w-[340px] h-auto"
+                                    src="https://theakkaas.com/wp-content/uploads/2023/01/theakkaas-studio-logo.svg"
+                                    alt="">
+                            </figure>
+                            <div class="flex flex-col items-center justify-items-center">
+                                <div>
+                                    <h4 class="text-4xl font-normal font-sans text-white">
+                                        OUR APPROACH TO
+                                    </h4>
+                                </div>
+                                <div>
+                                    <h4 class="text-4xl font-normal font-sans text-white/70">
+                                        BUILDING THE WEB 3.0 BRANDS
+                                    </h4>
+                                </div>
+                                <div>
+                                    <h4 class="text-4xl font-normal font-sans text-white">
+                                        OF TOMORROW
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="bg-white py-10 px-6">
+            <div class="container mx-auto">
+                <h2 class="mb-10 text-3xl font-bold text-blue-600">
+                    DON'T BE SHY <br /> TO SAY HI
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                    <div>
+                        <h3 class="font-semibold uppercase">Offices</h3>
+                        <div class="mt-4">
+                            <h4 class="font-medium">Dubai</h4>
+                            <p>
+                                Second Floor, Building 04
+                                <br />
+                                Business Bay.
+                                <br />
+                                +971 55 169 3129
+                            </p>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-medium">Canada</h4>
+                            <p>
+                                Suit # 2505, 50 Ordnance Street,
+                                <br />
+                                Toronto, ON M6K1A2
+                                <br />
+                                +1 (437) 500-6267
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold uppercase">Business</h3>
+                        <div class="mt-4">
+                            <h4 class="font-medium">Dubai</h4>
+                            <a href="mailto:mohammad.zia@theakkaas.com" class="text-black underline">
+                                mohammad.zia@theakkaas.com
+                            </a>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-medium">Canada</h4>
+                            <a href="mailto:ali.zaidi@theakkaas.com" class="text-black underline">
+                                ali.zaidi@theakkaas.com
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold uppercase">Say Hi</h3>
+                        <div class="mt-4">
+                            <h4 class="font-medium">Contact</h4>
+                            <a href="mailto:info@theakkaas.com" class="text-black underline">
+                                info@theakkaas.com
+                            </a>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-medium">Jobs</h4>
+                            <a href="mailto:jobs@theakkaas.com" class="text-black underline">
+                                jobs@theakkaas.com
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold uppercase">Contact</h3>
+                        <div class="mt-4">
+                            <p>
+                                Reach out using our cool{" "}
+                                <a href="#" class="text-blue-600 font-bold">
+                                    contact form
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10 flex justify-between flex-col md:flex-row">
+                    <div class="flex md:flex-row flex-col gap-3 items-center">
+                        <div>
+                            <a href="#" class="text-blue-600">
+                                <img class="w-full max-w-[180px]"
+                                    src="https://theakkaas.com/wp-content/uploads/2023/01/theakkaas-logo-black.svg"
+                                    alt="Akkaas Logo" />
+                            </a>
+                        </div>
+                        <div class="flex space-x-2">
+                            <a href="#" class="text-black underline">
+                                WHO WE ARE
+                            </a>
+                            <a href="#" class="text-black underline">
+                                SERVICES
+                            </a>
+                            <a href="#" class="text-black underline">
+                                PORTFOLIO
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center space-x-2">
+                        <a href="#" class="text-blue-600">
+                            Twitter
+                        </a>
+                        <a href="#" class="text-blue-600">
+                            Instagram
+                        </a>
+                        <a href="#" class="text-blue-600">
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slick-slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1100,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
