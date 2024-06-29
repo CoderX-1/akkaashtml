@@ -121,7 +121,7 @@ gsap.from(".moveup3",{
 )
 gsap.from(".moveleft2",{
     opacity:0,
-    x:200,
+    x:300,
     duration:.8,
     stagger:.2,
     scrollTrigger:{
